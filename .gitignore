@@ -1,0 +1,5 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.csv
+stat_arb_proj/data/*
+stat_arb_proj/data.csv

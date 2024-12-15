@@ -1,0 +1,25 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:        LOG_RETURNS_HSI   R-squared:                       0.923
+Model:                            OLS   Adj. R-squared:                  0.923
+Method:                 Least Squares   F-statistic:                 6.170e+06
+Date:                Sun, 15 Dec 2024   Prob (F-statistic):               0.00
+Time:                        18:25:40   Log-Likelihood:             3.7999e+06
+No. Observations:              512042   AIC:                        -7.600e+06
+Df Residuals:                  512040   BIC:                        -7.600e+06
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==========================================================================================
+                             coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------------------
+const                  -6.092e-07   2.02e-07     -3.010      0.003   -1.01e-06   -2.13e-07
+LOG_RETURNS_HHI_scaled     0.0005   1.95e-07   2483.851      0.000       0.000       0.000
+==============================================================================
+Omnibus:                   254529.672   Durbin-Watson:                   2.251
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):       5091932300.556
+Skew:                           0.146   Prob(JB):                         0.00
+Kurtosis:                     491.533   Cond. No.                         1.04
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
